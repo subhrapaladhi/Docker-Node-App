@@ -11,4 +11,4 @@ This will create a image for nodeapp. You need to create containers for this ima
 ```sudo docker build -t nodeapp .```
 
 ## Create a containter for nodeapp
-```sudo docker run --name nodeappContainer -p 3000:9999 nodeapp```
+```sudo docker run -p 5555:9999 -e APPID=5555 -d nodeapp```
