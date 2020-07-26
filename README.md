@@ -3,15 +3,19 @@ A simple node server app.
 ## Routes
 ```curl "http://localhost:3000/"```
 
-Res: ```hello from a lightweight container```
+Res: ```hello from a lightweight container. App ID = ${PORT}```
 
 ```curl "http://localhost:3000/app1"```
 
-Res: ```this is app1```
+Res: ```this is app1. App ID = ${PORT}```
+
+```curl "http://localhost:3000/app1"```
+
+Res: ```this is app2. App ID = ${PORT}```
 
 ```curl "http://localhost:3000/"```
 
-Res: ```admin page```
+Res: ```admin page. . App ID = ${PORT}```
 
 ## Docker Build
 This will create a image for nodeapp. You need to create containers for this image to run the app.
