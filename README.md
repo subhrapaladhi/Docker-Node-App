@@ -13,7 +13,7 @@ Res: ```this is app1. App ID = ${PORT}```
 
 Res: ```this is app2. App ID = ${PORT}```
 
-```curl "http://localhost:3000/"```
+```curl "http://localhost:3000/admin"```
 
 Res: ```admin page. . App ID = ${PORT}```
 
